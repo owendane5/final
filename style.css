@@ -1,0 +1,140 @@
+@import url(./reset.css);
+
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 19px;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: url(/images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    width: 100%;
+    background-position: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+header h2 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* MAIN CONTENT */
+#main-content {
+    display: flex;
+    width: 50%;
+}
+
+#main-content img {
+    width: 300px;
+    margin: 1em;
+    float: left;
+}
+
+#main-content figure {
+    text-decoration: none;
+}
+
+#main-content p {
+    display: flex;
+
+}
+
+/* MAIN */
+main {
+    display: flex;
+    width: 100%;
+}
+
+main p {
+    display: flex;
+
+
+}
+
+/* ASIDE */
+aside {
+    width: 40%;
+    gap: 3px;
+    margin-top: 1em;
+    margin-left: 1em;
+
+
+}
+
+aside li :nth-child(odd) {
+    background-color: gray;
+}
+
+aside h2 {
+    display: flex;
+    font-size: 25px;
+    background-color: gray;
+    padding: 25px;
+}
+
+aside li {
+    font: 15px;
+    margin: 1em;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-top: 1em;
+    padding: 31px
+}
+
+footer img {
+    width: 50px;
+    display: flex;
+    margin-right: 1em;
+}
+
+footer nav {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+footer p {
+    display: flex;
+}
